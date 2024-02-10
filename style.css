@@ -1,0 +1,74 @@
+/* style.css */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to top, #f7f9fa 0%, #e0e4e8 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 500px;
+    max-width: 90%;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Espacio interior para separar los elementos del borde */
+  }
+  
+  .formulario {
+    background: #f7f9fa;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-bottom: 20px; /* Espacio entre el formulario y el contenedor QR */
+  }
+  
+  label {
+    display: block; /* Para que los labels ocupen una línea completa */
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  .btn {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px; /* Espacio entre los inputs y botón */
+  }
+  
+  .btn {
+    background: linear-gradient(to right, #007bff 0%, #0099ff 100%);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(to right, #0099ff 0%, #007bff 100%);
+  }
+  
+  .contenedorQR {
+    width: 250px;
+    height: 250px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle at center, #fff 0%, #f5f5f5 100%);
+  }
+  
+  
+  
